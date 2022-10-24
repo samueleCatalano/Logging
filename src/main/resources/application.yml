@@ -1,0 +1,22 @@
+spring:
+environment: test
+varTest:
+  test: 2
+server:
+  port: 1234
+  logging:
+    level:
+      root: INFO
+      output:
+        ansi:
+          enabled: ALWAYS
+---
+environment: prod
+varProd:
+  prod: 8
+server:
+  port: 8000
+  logging:
+    level:
+      root: DEBUG
+
