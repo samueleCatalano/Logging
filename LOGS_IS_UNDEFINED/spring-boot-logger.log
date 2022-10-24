@@ -1,0 +1,25 @@
+2022-10-24 18:17:44,370 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingApplication using Java 19.0.1 on stateignored with PID 5128 (C:\Users\Utente\Downloads\logging\target\classes started by Utente in C:\Users\Utente\Downloads\logging)
+2022-10-24 18:17:44,375 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-10-24 18:17:44,383 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "prod"
+2022-10-24 18:17:44,592 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-24 18:17:44,607 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-24 18:17:47,122 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2022-10-24 18:17:47,181 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8000"]
+2022-10-24 18:17:47,181 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-10-24 18:17:47,184 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-24 18:17:47,341 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-24 18:17:47,341 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2733 ms
+2022-10-24 18:17:48,381 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-24 18:17:48,410 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8000"]
+2022-10-24 18:17:48,452 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2022-10-24 18:17:48,486 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingApplication in 4.941 seconds (JVM running for 6.275)
+2022-10-24 18:17:56,584 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-24 18:17:56,585 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-10-24 18:17:56,587 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-2] Completed initialization in 1 ms
+2022-10-24 18:17:56,633 INFO com.logging.logging.controllers.BasicController [http-nio-8000-exec-2] Info log
+2022-10-24 18:17:56,645 INFO com.logging.logging.services.Service [http-nio-8000-exec-2] Start calculation
+2022-10-24 18:17:56,692 INFO com.logging.logging.services.Service [http-nio-8000-exec-2] End calculation
+2022-10-24 18:17:59,901 INFO com.logging.logging.controllers.BasicController [http-nio-8000-exec-3] Info log
+2022-10-24 18:17:59,901 INFO com.logging.logging.services.Service [http-nio-8000-exec-3] Start calculation
+2022-10-24 18:17:59,901 INFO com.logging.logging.services.Service [http-nio-8000-exec-3] End calculation
+2022-10-24 18:18:06,041 ERROR com.logging.logging.controllers.BasicController [http-nio-8000-exec-4] This is the error logging java.lang.Error: ErrorLog
